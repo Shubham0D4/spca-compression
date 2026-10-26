@@ -16,6 +16,14 @@ blob = spca.compress(data)
 assert spca.decompress(blob) == data
 ```
 
+Command line (any file, no extra dependencies):
+```
+python3 spca_cli.py test myfile.png myfile.txt   # compare vs zlib/bz2/lzma and verify round-trip
+python3 spca_cli.py compress myfile.txt          # writes myfile.txt.spca
+python3 spca_cli.py decompress myfile.txt.spca   # restores myfile.txt
+```
+The prototype is pure Python, so start with files under about 1 MB.
+
 Run the benchmark (needs `pip install -r requirements.txt`; it uses some Linux system files as test inputs):
 ```
 python3 bench.py
