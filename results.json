@@ -1,0 +1,574 @@
+[
+ {
+  "name": "source_code.py",
+  "orig": 101750,
+  "zlib": 21428,
+  "bz2": 18133,
+  "lzma": 19592,
+  "spca": 21429,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.3,
+  "rep": {
+   "dict_entries": 606,
+   "dict_bytes": 3628,
+   "map_bytes": 22402,
+   "lit_bytes": 19738,
+   "segments": 5,
+   "cands": {
+    "stored": 101751,
+    "zlib-direct": 21429,
+    "spca-raw": 45781,
+    "spca+zlib": 32805,
+    "spca-split": 31746
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "source_code_c.h",
+  "orig": 34649,
+  "zlib": 6805,
+  "bz2": 6505,
+  "lzma": 6484,
+  "spca": 6806,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.1,
+  "rep": {
+   "dict_entries": 329,
+   "dict_bytes": 2587,
+   "map_bytes": 6469,
+   "lit_bytes": 6187,
+   "segments": 4,
+   "cands": {
+    "stored": 34650,
+    "zlib-direct": 6806,
+    "spca-raw": 15255,
+    "spca+zlib": 10828,
+    "spca-split": 10505
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "english_text.txt",
+  "orig": 35149,
+  "zlib": 12112,
+  "bz2": 10706,
+  "lzma": 11428,
+  "spca": 12113,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.1,
+  "rep": {
+   "dict_entries": 437,
+   "dict_bytes": 2731,
+   "map_bytes": 9239,
+   "lit_bytes": 10281,
+   "segments": 4,
+   "cands": {
+    "stored": 35150,
+    "zlib-direct": 12113,
+    "spca-raw": 22263,
+    "spca+zlib": 17444,
+    "spca-split": 16598
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "records.csv",
+  "orig": 94788,
+  "zlib": 26102,
+  "bz2": 18756,
+  "lzma": 20568,
+  "spca": 26103,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.2,
+  "rep": {
+   "dict_entries": 234,
+   "dict_bytes": 1186,
+   "map_bytes": 18282,
+   "lit_bytes": 23148,
+   "segments": 5,
+   "cands": {
+    "stored": 94789,
+    "zlib-direct": 26103,
+    "spca-raw": 42629,
+    "spca+zlib": 27647,
+    "spca-split": 27195
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "json_records.json",
+  "orig": 103890,
+  "zlib": 9773,
+  "bz2": 7542,
+  "lzma": 5896,
+  "spca": 9664,
+  "best": "spca-split",
+  "ok": true,
+  "t": 0.2,
+  "rep": {
+   "dict_entries": 3,
+   "dict_bytes": 27,
+   "map_bytes": 9008,
+   "lit_bytes": 31898,
+   "segments": 4,
+   "cands": {
+    "stored": 103891,
+    "zlib-direct": 9774,
+    "spca-raw": 40945,
+    "spca+zlib": 9730,
+    "spca-split": 9664
+   },
+   "best": "spca-split"
+  }
+ },
+ {
+  "name": "repeated_byte.bin",
+  "orig": 100000,
+  "zlib": 120,
+  "bz2": 47,
+  "lzma": 148,
+  "spca": 32,
+  "best": "spca+zlib",
+  "ok": true,
+  "t": 0.1,
+  "rep": {
+   "dict_entries": 2,
+   "dict_bytes": 82,
+   "map_bytes": 10,
+   "lit_bytes": 0,
+   "segments": 3,
+   "cands": {
+    "stored": 100001,
+    "zlib-direct": 121,
+    "spca-raw": 103,
+    "spca+zlib": 32,
+    "spca-split": 42
+   },
+   "best": "spca+zlib"
+  }
+ },
+ {
+  "name": "periodic_abcd.bin",
+  "orig": 100000,
+  "zlib": 125,
+  "bz2": 51,
+  "lzma": 152,
+  "spca": 37,
+  "best": "spca+zlib",
+  "ok": true,
+  "t": 0.1,
+  "rep": {
+   "dict_entries": 2,
+   "dict_bytes": 82,
+   "map_bytes": 10,
+   "lit_bytes": 0,
+   "segments": 3,
+   "cands": {
+    "stored": 100001,
+    "zlib-direct": 126,
+    "spca-raw": 103,
+    "spca+zlib": 37,
+    "spca-split": 47
+   },
+   "best": "spca+zlib"
+  }
+ },
+ {
+  "name": "periodic_irregular.bin",
+  "orig": 120000,
+  "zlib": 203,
+  "bz2": 55,
+  "lzma": 156,
+  "spca": 62,
+  "best": "spca+zlib",
+  "ok": true,
+  "t": 0.1,
+  "rep": {
+   "dict_entries": 1,
+   "dict_bytes": 65,
+   "map_bytes": 5,
+   "lit_bytes": 3648,
+   "segments": 3,
+   "cands": {
+    "stored": 120001,
+    "zlib-direct": 204,
+    "spca-raw": 3729,
+    "spca+zlib": 62,
+    "spca-split": 69
+   },
+   "best": "spca+zlib"
+  }
+ },
+ {
+  "name": "sawtooth.bin",
+  "orig": 100000,
+  "zlib": 713,
+  "bz2": 924,
+  "lzma": 376,
+  "spca": 321,
+  "best": "spca+zlib",
+  "ok": true,
+  "t": 0.1,
+  "rep": {
+   "dict_entries": 6,
+   "dict_bytes": 254,
+   "map_bytes": 30,
+   "lit_bytes": 1232,
+   "segments": 3,
+   "cands": {
+    "stored": 100001,
+    "zlib-direct": 714,
+    "spca-raw": 1527,
+    "spca+zlib": 321,
+    "spca-split": 368
+   },
+   "best": "spca+zlib"
+  }
+ },
+ {
+  "name": "random.bin",
+  "orig": 100000,
+  "zlib": 100041,
+  "bz2": 100831,
+  "lzma": 100064,
+  "spca": 100001,
+  "best": "stored",
+  "ok": true,
+  "t": 0.2,
+  "rep": {
+   "dict_entries": 0,
+   "dict_bytes": 0,
+   "map_bytes": 0,
+   "lit_bytes": 100000,
+   "segments": 4,
+   "cands": {
+    "stored": 100001,
+    "zlib-direct": 100042,
+    "spca-raw": 100012,
+    "spca+zlib": 100053,
+    "spca-split": 100063
+   },
+   "best": "stored"
+  }
+ },
+ {
+  "name": "already_zlib.bin",
+  "orig": 12112,
+  "zlib": 12123,
+  "bz2": 12591,
+  "lzma": 12172,
+  "spca": 12113,
+  "best": "stored",
+  "ok": true,
+  "t": 0.0,
+  "rep": {
+   "dict_entries": 1,
+   "dict_bytes": 9,
+   "map_bytes": 6,
+   "lit_bytes": 12096,
+   "segments": 3,
+   "cands": {
+    "stored": 12113,
+    "zlib-direct": 12124,
+    "spca-raw": 12121,
+    "spca+zlib": 12132,
+    "spca-split": 12143
+   },
+   "best": "stored"
+  }
+ },
+ {
+  "name": "executable_elf",
+  "orig": 100000,
+  "zlib": 47617,
+  "bz2": 46202,
+  "lzma": 42248,
+  "spca": 47618,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.2,
+  "rep": {
+   "dict_entries": 750,
+   "dict_bytes": 4894,
+   "map_bytes": 18334,
+   "lit_bytes": 45902,
+   "segments": 5,
+   "cands": {
+    "stored": 100001,
+    "zlib-direct": 47618,
+    "spca-raw": 69143,
+    "spca+zlib": 54542,
+    "spca-split": 54421
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "graphic_flat.bmp",
+  "orig": 196662,
+  "zlib": 1814,
+  "bz2": 1327,
+  "lzma": 964,
+  "spca": 1815,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.2,
+  "rep": {
+   "dict_entries": 70,
+   "dict_bytes": 1638,
+   "map_bytes": 4578,
+   "lit_bytes": 3584,
+   "segments": 3,
+   "cands": {
+    "stored": 196663,
+    "zlib-direct": 1815,
+    "spca-raw": 9811,
+    "spca+zlib": 1961,
+    "spca-split": 1963
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "graphic_flat.png",
+  "orig": 2461,
+  "zlib": 1935,
+  "bz2": 2238,
+  "lzma": 1916,
+  "spca": 1936,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.0,
+  "rep": {
+   "dict_entries": 12,
+   "dict_bytes": 164,
+   "map_bytes": 90,
+   "lit_bytes": 1893,
+   "segments": 3,
+   "cands": {
+    "stored": 2462,
+    "zlib-direct": 1936,
+    "spca-raw": 2157,
+    "spca+zlib": 2046,
+    "spca-split": 2062
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "gradient.bmp",
+  "orig": 196662,
+  "zlib": 139088,
+  "bz2": 18624,
+  "lzma": 16648,
+  "spca": 139089,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.5,
+  "rep": {
+   "dict_entries": 1,
+   "dict_bytes": 5,
+   "map_bytes": 7,
+   "lit_bytes": 196642,
+   "segments": 4,
+   "cands": {
+    "stored": 196663,
+    "zlib-direct": 139089,
+    "spca-raw": 196666,
+    "spca+zlib": 139100,
+    "spca-split": 139110
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "gradient.png",
+  "orig": 758,
+  "zlib": 126,
+  "bz2": 228,
+  "lzma": 188,
+  "spca": 127,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.0,
+  "rep": {
+   "dict_entries": 3,
+   "dict_bytes": 87,
+   "map_bytes": 12,
+   "lit_bytes": 102,
+   "segments": 2,
+   "cands": {
+    "stored": 759,
+    "zlib-direct": 127,
+    "spca-raw": 210,
+    "spca+zlib": 151,
+    "spca-split": 167
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "photolike.bmp",
+  "orig": 196662,
+  "zlib": 184519,
+  "bz2": 192834,
+  "lzma": 171436,
+  "spca": 184520,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.5,
+  "rep": {
+   "dict_entries": 1,
+   "dict_bytes": 5,
+   "map_bytes": 7,
+   "lit_bytes": 196642,
+   "segments": 4,
+   "cands": {
+    "stored": 196663,
+    "zlib-direct": 184520,
+    "spca-raw": 196666,
+    "spca+zlib": 184528,
+    "spca-split": 184544
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "photolike.png",
+  "orig": 128073,
+  "zlib": 128119,
+  "bz2": 129037,
+  "lzma": 128140,
+  "spca": 128074,
+  "best": "stored",
+  "ok": true,
+  "t": 0.3,
+  "rep": {
+   "dict_entries": 0,
+   "dict_bytes": 0,
+   "map_bytes": 0,
+   "lit_bytes": 128073,
+   "segments": 4,
+   "cands": {
+    "stored": 128074,
+    "zlib-direct": 128120,
+    "spca-raw": 128085,
+    "spca+zlib": 128131,
+    "spca-split": 128141
+   },
+   "best": "stored"
+  }
+ },
+ {
+  "name": "photolike.jpg",
+  "orig": 12737,
+  "zlib": 12462,
+  "bz2": 12851,
+  "lzma": 12556,
+  "spca": 12463,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.0,
+  "rep": {
+   "dict_entries": 8,
+   "dict_bytes": 140,
+   "map_bytes": 42,
+   "lit_bytes": 12449,
+   "segments": 3,
+   "cands": {
+    "stored": 12738,
+    "zlib-direct": 12463,
+    "spca-raw": 12641,
+    "spca+zlib": 12506,
+    "spca-split": 12517
+   },
+   "best": "zlib-direct"
+  }
+ },
+ {
+  "name": "noise.bmp",
+  "orig": 196662,
+  "zlib": 196728,
+  "bz2": 197890,
+  "lzma": 196732,
+  "spca": 196663,
+  "best": "stored",
+  "ok": true,
+  "t": 0.5,
+  "rep": {
+   "dict_entries": 1,
+   "dict_bytes": 5,
+   "map_bytes": 7,
+   "lit_bytes": 196642,
+   "segments": 4,
+   "cands": {
+    "stored": 196663,
+    "zlib-direct": 196729,
+    "spca-raw": 196666,
+    "spca+zlib": 196732,
+    "spca-split": 196740
+   },
+   "best": "stored"
+  }
+ },
+ {
+  "name": "tiled_pattern.bmp",
+  "orig": 196662,
+  "zlib": 1896,
+  "bz2": 2063,
+  "lzma": 1356,
+  "spca": 1450,
+  "best": "spca+zlib",
+  "ok": true,
+  "t": 0.2,
+  "rep": {
+   "dict_entries": 83,
+   "dict_bytes": 2091,
+   "map_bytes": 4716,
+   "lit_bytes": 742,
+   "segments": 3,
+   "cands": {
+    "stored": 196663,
+    "zlib-direct": 1897,
+    "spca-raw": 7560,
+    "spca+zlib": 1450,
+    "spca-split": 1462
+   },
+   "best": "spca+zlib"
+  }
+ },
+ {
+  "name": "tiled_pattern.png",
+  "orig": 2121,
+  "zlib": 1149,
+  "bz2": 1433,
+  "lzma": 1168,
+  "spca": 1150,
+  "best": "zlib-direct",
+  "ok": true,
+  "t": 0.0,
+  "rep": {
+   "dict_entries": 5,
+   "dict_bytes": 129,
+   "map_bytes": 28,
+   "lit_bytes": 1073,
+   "segments": 3,
+   "cands": {
+    "stored": 2122,
+    "zlib-direct": 1150,
+    "spca-raw": 1240,
+    "spca+zlib": 1197,
+    "spca-split": 1172
+   },
+   "best": "zlib-direct"
+  }
+ }
+]
